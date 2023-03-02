@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="display-signup-form.css?version=51">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="randomText">
+        <p>Visitors are very <b>Welcome.</b></p>
+    </div>
+
+    <form method="post" action="server-registration.php" {
+        
+    }>
+        <div class="border">
+
+            <div class="signUpContainer">
+
+                <div class="textSign">
+                    <p>Sign Up Here.</p>
+                </div>
+
+                <i class="fa fa-user"></i>
+                <label for="fName"><b>First Name</b></label>
+                <input type="text" placeholder="Enter your first name..." name="fName" required>
+
+                <i class="fa fa-user"></i>
+                <label for="lName"><b>Last Name</b></label>
+                <input type="text" placeholder="Enter your last name..." name="lName" required>
+                
+                <i class="fa fa-user"></i>
+                <label for="userName"><b>Username</b></label>
+                <input type="text" placeholder="Your preferred username..." name="userName" required>
+
+                <i class="fa fa-envelope"></i>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <i class="fa fa-lock"></i>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <i class="fa fa-lock"></i>
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+
+                <div class="clearfix">
+
+                    <button type="button" class="cancelbtn" onclick="window.location.href= 'index.php'">
+                        <i class="fa fa-remove"></i>
+                        Cancel
+                    </button>
+
+                    <input type="submit" class="signupbtn" name="regUser" id="regUser" value="Register">
+                </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,226 @@
+html {
+    height: 100%;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(0,128,128,1) 100%);
+    background-attachment: fixed;
+}
+
+    @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+
+    .logintext {
+        animation: fadeIn 3s;
+        margin-top: 12%;
+        font-size: 330%;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: #ccc;
+        background-color: #0F1417;
+        margin-left: 5%;
+        margin-right: 50%;
+        margin-bottom: -12%;
+        border-radius: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        box-shadow: -20px 20px 20px teal;
+        transition: 0.5s;
+    }
+
+
+    .logintext:hover {
+        box-shadow: 50px -16px rgb(0, 188, 188);
+        transition: 0.5s;
+    }
+
+
+    .border {
+        border: 10%;
+        padding: 10%;
+    }
+
+    .login_container {
+        animation: fadeIn 5s;
+        margin: 0%;
+        margin-top: -25%;
+        font-size: 20px;
+        padding-left: 60%;
+        padding-right: 3%;
+        color: #ccc;
+    }
+
+    input[type = text] {
+        animation: fadeIn 5s;
+        font-size: 20px;
+        width: 120%;
+        padding: 20px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: #ccc;
+    }
+
+    input[type = text]:focus{
+        outline: none;
+        border-color: teal;
+        box-shadow: 0 0 20px teal;
+    }
+
+    
+    input[type = password] {
+        animation: fadeIn 5s;
+        font-size: 20px;
+        width: 120%;
+        padding: 20px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: #ccc;
+    }
+
+    input[type = password]:focus{
+        outline: none;
+        border-color: teal;
+        box-shadow: 0 0 20px teal;
+    }
+
+    input[type = checkbox]{
+        transform: scale(2.0);
+        cursor: pointer;
+        margin: 5%;
+    }
+
+    
+
+    button {
+        animation: fadeIn 7s;
+        background-color: #0C070B;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 120%;
+        border-radius: 20px;
+        font-size: 20px;
+        box-shadow: 0px 0px 0px teal;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        background-color: rgb(0, 188,188);
+        opacity:100%;
+        transition: 0.2s;
+        color: #000000;
+        box-shadow: 30px 30px 10px teal;
+        transition: 0.5s;
+    }
+
+    
+
+    @media only screen and (max-width: 1024px) {
+        
+        .logintext {
+            margin-top: 10%;
+            font-size: 180%;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: #ccc;
+            background-color: #000000;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: -5%;
+            border-radius: 10px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-right: 25px;
+            padding-left: 25px;
+
+            box-shadow: -20px 20px 20px teal;
+            transition: 0.5s;
+        }
+
+        .logintext:hover {
+            box-shadow: 25px -16px rgb(0, 188, 188);
+            transition: 0.3s;
+        }
+
+        .border {
+            border: 10%;
+            padding: 10%;
+        }
+    
+        .login_container {
+            margin: -5%;
+            margin-top: 0%;
+            font-size: 18px;
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+    
+        input[type = text] {
+            font-size: 15px;
+            width: 100%;
+            padding: 15px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            background-color: #ccc;
+        }
+
+        input[type = text]:focus{
+            outline: none;
+            border-color: teal;
+            box-shadow: 0 0 20px teal;
+        }
+    
+        
+        input[type = password] {
+            animation: fadeIn 5s;
+            font-size: 15px;
+            width: 100%;
+            padding: 15px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            background-color: #ccc;
+        }
+    
+        input[type = password]:focus{
+            outline: none;
+            border-color: teal;
+            box-shadow: 0 0 20px teal;
+        }
+    
+        input[type = checkbox] {
+            transform: scale(2.0);
+            cursor: pointer;
+            margin: 5%;
+        }
+    
+        button {
+            background-color: #000000;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 20px;
+            font-size: 20px;
+            box-shadow: 0px 0px 0px teal;
+            transition: 0.5s;
+        }
+   }
